@@ -10,6 +10,11 @@ TagManager:
   - 4
   - 5
   - 6
+  - RandomItem
+  - 7
+  - 8
+  - 9
+  - TreasureUI
   layers:
   - Default
   - TransparentFX
