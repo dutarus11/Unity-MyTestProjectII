@@ -26,19 +26,9 @@ public class ActivateUI : MonoBehaviour
     public void OnMouseDown()
     {
         Debug.Log("Trigger success!");
-        mainUI.SetActive(true);
-        SphereMovement();     
+        mainUI.SetActive(true);         
     }
-
-    public void OnMouseExit()
-    {
-        sphere.transform.position = new Vector3(0.939f, 0.218f, 2.87f);
-        
-    }
-    public void SphereMovement()
-    {
-        sphere.transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);      
-    }
+       
     public void OnUIClick()
     {
         Debug.Log("Success on UI");
